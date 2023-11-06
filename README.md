@@ -13,7 +13,7 @@ This system is not only applicable to financial transactions but also to risk au
 It is mainly applicable to industries such as finance, e-commerce, telecommunications, payments, insurance, securities, retail, logistics, and government affairs.
 
 ## 2. Design Philosophy and Advantages
-![image-20230925150651965](img/design.jpg)
+![image-20230925150651965](img/design.png)
 The design philosophy of the Financial Firewall System is based on the rapidly developing mobile internet market environment, aiming to be a control platform that identifies financial loss risks in real-time and sends alerts. Its design philosophy and advantages include:
 
 1. **Real-time Risk Identification**: The Financial Firewall can monitor and analyze the flow of funds in real-time, perform data comparisons and analysis through a configured rule engine, and identify potential financial loss risks in real-time. This real-time risk identification can help users take timely measures to prevent further losses.
@@ -23,7 +23,7 @@ The design philosophy of the Financial Firewall System is based on the rapidly d
 5. **Visual Monitoring and Intelligent Verification**: The Financial Firewall usually provides an intuitive visual interface, facilitating users to manage system monitoring and risk verification. Users can view real-time financial risk status, alarm information, historical records, etc., through the interface, thereby better understanding and mastering the situation of financial risks.
 
 ## 3. Capabilities
-![image-20230925150651965](img/ability.jpg)
+![image-20230925150651965](img/ability.png)
 The Financial Firewall is a control platform developed by our company to adapt to the rapidly developing mobile internet market environment. Its main function is to identify financial loss risks in real-time and send alerts. The platform is applicable to various industries, especially in the fields of internet finance and e-commerce. With simple configuration, users can quickly create verification rules that meet their business characteristics and publish the scenarios involved in these rules on the control platform to achieve real-time verification processing.
 
 - **Account Center**: Personalized permission butler, ensuring account security and privacy.
@@ -34,7 +34,7 @@ The Financial Firewall is a control platform developed by our company to adapt t
 - **Enterprise Risk Control**: Global risk control, making risk points clear at a glance.
 
 ## 4. System Architecture
-![image-20230925150651965](img/arch.jpg)
+![image-20230925150651965](img/arch.png)
 Technical architecture diagram
 
 
