@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>邮箱告警</title>
+</head>
+
+<body>
+<!-- 头部 -->
+<div style="padding: 10px; background-color: #393D49;">
+  <h2 style="color: #FFFFFF; margin: 0px;">邮件告警</h2>
+</div>
+<!-- 内容 -->
+<div style="padding-top: 10px; padding-bottom: 10px;">
+  <div style="background-color: snow; padding: 20px;">
+    <div>
+      <h3>尊敬的用户：您好！</h3>
+      <p>说明：XX场景业务疑似出现资金损失，为了确保资金安全，请尽快核实。</p>
+      <p th:text="'【' +  ${name} + '】场景业务疑似出现资金损失，为了确保资金安全，请尽快核实。'"></p>
+      <div>
+        <h4>核对点详情：</h4>
+        <p th:text="'差异数据---> ' + ${alarm}"></p>
+        <div style="background-color: #EBEEF5; padding: 10px;">
+          <h3 th:text="${url}"></h3>
+        </div>
+        <h4>若为噪音，请优化场景任务窗口时长</h4>
+      </div>
+      <p style="margin-top: 15px;">发件人：资金安全防控系统</p>
+    </div>
+  </div>
+</div>
+<!-- 页底 -->
+<div style="padding: 10px; text-align: center; background-color: #2F4056;">
+  <p style="margin: 0px; color: #FFFFFF;">Copyright © 2023 <a href="http://localhost:8080/" style="color: #FFFFFF;">资金安全防控系统</a> All Rights Reserved.</p>
+</div>
+
+</body>
+
+</html>
