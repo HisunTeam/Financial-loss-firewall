@@ -1,0 +1,9 @@
+[versions]
+lombokGradlePlugin = "8.2.2"
+
+[libraries]
+
+[bundles]
+
+[plugins]
+lombok = { id = "io.freefair.lombok", version.ref = "lombokGradlePlugin" }
