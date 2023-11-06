@@ -62,5 +62,4 @@ Technical architecture diagram
 
 # II. Contact Us
 
-- Email:
-
+- Email:hisun_aiteam@outlook.com
